@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>Image Resize(POST Form)</title>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+</head>
+<!-- ['secret_key', 'image', 'name', 'age','gender' , 'tobacco_habits', 'brushing_habits', 'dental_visit']  -->
+<body>
+    <form id="uploadForm" action="https://38af02e14949.ngrok.io/api/form/" method="POST" enctype="multipart/form-data">
+    <div id="targetLayer">
+        <input type="text" value="test" name ="secret_key"/>
+        <input type="text" value="test" name ="name"/>
+        <input type="text" value="test" name ="age"/>
+        <input type="text" value="test" name ="gender"/>
+        <input type="text" value="test" name ="tobacco_habits"/>
+        <input type="text" value="test" name ="brushing_habits"/>
+        <input type="text" value="test" name ="dental_visit"/>
+        <input name = "image" id="imageFile" type="file" capture="camera" accept="image/*" />
+        <input type="submit" class="btnSubmit" >
+    </div>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
