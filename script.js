@@ -49,7 +49,7 @@ $(document).ready(function (e) {
             var dataurl = canvas.toDataURL("image/jpeg");
             //document.getElementById('output').src = dataurl;
                  
-            $("#imageFile").val(dataurl);
+            $("#hidden_data").val(dataurl);
                 
                 //console.log(canvas);
                  
