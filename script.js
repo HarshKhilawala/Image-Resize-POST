@@ -72,7 +72,7 @@ $(document).ready(function (e) {
             },200);
             }
             // Load files into file reader
-            console.log(file);
+            // console.log(file);
              
             reader.readAsDataURL(file);
         }
